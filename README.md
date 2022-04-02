@@ -28,3 +28,21 @@ Git 명령어 (기능이자 명령어)
   - pull :
 
 # 클라이언트 서버 시스템
+
+- 클라이언트 서버 모델(client–server model)은 서비스 요청자인 클라이언트와 서비스 자원의 제공자인 서버 간에 작업을 분리해주는 네트워크 아키텍처를 나타낸다. 웹 시스템도 확장된 '클라이언트 서버 시스템'으로 분류되나, 일반적으로는 클라이언트 서버 시스템이라고 하면 웹 시스템이 나오기 이전의, 사용자 PC에는 클라이언트가 설치되어 화면을 처리하고 서버에서는 자료를 처리하는 시스템을 일컫는다.
+
+# Front end / Back end develop
+
+-Front end
+
+- 사용자(기준)가 제어하는 화면 또는 인터페이스 놓이는 부분, 위치하는 영역
+- UI 디자인, 개발
+  - Client와 관계가 있다.
+- Client system - hardware, software
+  - H/W : PC, Mobile device
+  - S/W : Web Browser, App - sofeware
+
+-Back end
+
+- 사용자가 제어하지 못하는 영역
+- 보안, 데이터 처리
