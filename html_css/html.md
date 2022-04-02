@@ -98,6 +98,7 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
   -reference : 참조
 
 ```
-<a href="url">텍스트</a>
+<a href="url" target="_blank">텍스트</a>
   url = 인터넷 주소
 ```
+  -target attribute는 blank만 사용 : 새탭열기
