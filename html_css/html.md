@@ -91,3 +91,6 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 
 -수평선 (horizontal Rule) : hr
   -단순하게 줄을 긋는것이 아니라, 단락을 구분하는 구분선
+
+### HTML Link
+- a : 'a'nchor 닻_바다용어 하이퍼링크 연결하는 태그
