@@ -94,3 +94,10 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 
 ### HTML Link
 - a : 'a'nchor 닻_바다용어 하이퍼링크 연결하는 태그
+- href(hyper text reference) : 목적지 정보 속성(attribute)
+  -reference : 참조
+
+```
+<a href="url">텍스트</a>
+  url = 인터넷 주소
+```
