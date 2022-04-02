@@ -59,3 +59,35 @@ body 기준
 ```
 <tag attr="value"></tag>
 ```
+
+## Text contents Markup
+
+### heading(제목)
+  - h : 태그 'h'eading 
+  - h1 ~ h6
+
+### Paragraph(단락)
+  - P : 태그 'p'aragraph
+```
+WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은 것
+  -하지만 html은 태그로 표현하기에 wyw가 지원 안됨
+  -요즘은 이 표현을 안씀 (파워포인트)
+```
+  - 강제 줄바꿈 : 'br'eak 태그
+    - 시작태그만 존재하는 빈요소(Empty Element)
+    - 강제 공백 : &nbsp; nonbrakespace; (엔터티 코드)
+
+     -  < =	less than	&lt;	&#60;	
+     -  > = greater than	&gt;	&#62;	
+     -  &	= ampersand	&amp;	&#38;	
+     -  "	= double quotation mark	&quot;	&#34;	
+     -  '	= single quotation mark (apostrophe)	&apos;	&#39;
+
+```
+& : ampersand
+앤터티코드 : 대체코드
+  -특수문자를 직접 사용하지 못할 경우, 대체해서 사용하는 코드
+```
+
+-수평선 (horizontal Rule) : hr
+  -단순하게 줄을 긋는것이 아니라, 단락을 구분하는 구분선
