@@ -47,6 +47,12 @@ Git 명령어 (기능이자 명령어)
 - UI 개발
 - browser(client)에서 해석되는 언어를 사용해서 개발
 - 웹 프론트 엔드 언어 : HTML, CSS, JAVASCRIPT
+- 앱 개발 언어(navtive)
+
+  - Android : java -> Kotlin
+  - Ios : objective C -> Swift
+
+- ## Front End develop / Publishing
 
 -Back end
 
@@ -59,3 +65,6 @@ Git 명령어 (기능이자 명령어)
 - Back end 개발이란?
 - 서버(아파치, IIS)에서 해석되는 언어를 사용해서 개발
 - 웹 백 엔드 언어: JAVA, PHP, ASP, python, javascript
+- 앱 개발 언어(navtive)
+  - Android : java -> Kotlin
+  - Ios : objective C -> Swift
