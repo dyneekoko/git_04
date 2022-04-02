@@ -77,11 +77,11 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
     - 시작태그만 존재하는 빈요소(Empty Element)
     - 강제 공백 : &nbsp; nonbrakespace; (엔터티 코드)
 
-     -  < =	less than	&lt;	&#60;	
-     -  > = greater than	&gt;	&#62;	
+     -  < =	less than	&lt; &#60;	
+     -  > = greater than	&gt; &#62;	
      -  &	= ampersand	&amp;	&#38;	
-     -  "	= double quotation mark	&quot;	&#34;	
-     -  '	= single quotation mark (apostrophe)	&apos;	&#39;
+     -  "	= double quotation mark	&quot; &#34;	
+     -  '	= single quotation mark (apostrophe)	&apos; &#39;
 
 ```
 & : ampersand
