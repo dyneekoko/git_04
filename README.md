@@ -39,10 +39,23 @@ Git 명령어 (기능이자 명령어)
 - UI 디자인, 개발
   - Client와 관계가 있다.
 - Client system - hardware, software
+
   - H/W : PC, Mobile device
   - S/W : Web Browser, App - sofeware
+
+- Front end 개발이란?
+- UI 개발
+- browser(client)에서 해석되는 언어를 사용해서 개발
+- 웹 프론트 엔드 언어 : HTML, CSS, JAVASCRIPT
 
 -Back end
 
 - 사용자가 제어하지 못하는 영역
 - 보안, 데이터 처리
+
+  - H/W : server computer
+  - S/W : server softeware - 아파치(리눅스-php), IIS(윈도우-asp), nodejs(서버역활과 개발언어 해석-js)
+
+- Back end 개발이란?
+- 서버(아파치, IIS)에서 해석되는 언어를 사용해서 개발
+- 웹 백 엔드 언어: JAVA, PHP, ASP, python, javascript
