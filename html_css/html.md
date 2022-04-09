@@ -96,10 +96,20 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 - a : 'a'nchor 닻_바다용어 하이퍼링크 연결하는 태그
 - href(hyper text reference) : 목적지 정보 속성(attribute)
   -reference : 참조
+- bookmark : 연결된 페이지로 이동하지 않고, 같은 페이지 내에서 이동
+
 
 ```
+- Page Link
 <a href="url" target="_blank">텍스트</a>
   url = 인터넷 주소, 상세주소
+
+- bookmark Link
+  -Link : <a href="#target">목적지</a>
+  -Target : <h2 id="target">단락의 제목</h2>
+
+
+
 ```
   -target attribute는 blank만 사용 : 새탭열기
   -URL이란? : Uniform-한결같은 Resource-자원 Locator-위치, 구분자
@@ -133,8 +143,14 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
   IP또는Domain / 상세경로 / 파일 정보
   ex) https://www.w3schools.com/html/default.asp
   도메인만 있어도 URL.
-```
+  
+  W3C - HTML_Link
+  More on Absolute URLs and Relative URLs
+  ```
 
+- HTML Links - Create Bookmarks
+  ex) One Page Website
+  : 스크립트와 연동하여 사용 - 한페이지에서 
 
 
 
