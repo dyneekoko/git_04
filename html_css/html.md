@@ -99,13 +99,40 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 
 ```
 <a href="url" target="_blank">텍스트</a>
-  url = 인터넷 주소
+  url = 인터넷 주소, 상세주소
 ```
   -target attribute는 blank만 사용 : 새탭열기
   -URL이란? : Uniform-한결같은 Resource-자원 Locator-위치, 구분자
     -파일 위치 식별자
     - 웹페이지는 파일로 만드니 - 파일위치를 찾아가는 것
   
+```
+
+  - url 인터넷 주소체계 _ 기본
+    - IP (internet protocol) address 
+      : 인터넷 통신 주소 약속
+        - 단점: 숫자라서 기억하기가 어렵다. (이름이 없기 때문)
+    - Domain name : IP 주소를 영어 단어로 표현한 것
+      - 서버종류 : www
+      - 회사이름 : naver, kakao, daum
+      - 기관성격 : com, net (3자리) / co, go, ac (4자리)
+      - 국가(4자리) : kr, uk, ca, fr ..
+      
+    참조: 인터넷 역사
+
+
+
+```
+- 0~255까지 숫자 4개로 구성
+  ex) 192.222.0.1
+
+- 인터넷 접속 프로세스 
+  주소표시줄에 -  Domain Name > IP주소로 변환 > 접속 
+
+-URL 체계
+  IP또는Domain / 상세경로 / 파일 정보
+  ex) https://www.w3schools.com/html/default.asp
+  도메인만 있어도 URL.
 ```
 
 
