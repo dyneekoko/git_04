@@ -109,7 +109,6 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
   -Target : <h2 id="target">단락의 제목</h2>
 
 
-
 ```
   -target attribute는 blank만 사용 : 새탭열기
   -URL이란? : Uniform-한결같은 Resource-자원 Locator-위치, 구분자
@@ -130,9 +129,11 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
       
     참조: 인터넷 역사
 
-
-
 ```
+
+
+
+
 - 0~255까지 숫자 4개로 구성
   ex) 192.222.0.1
 
@@ -154,3 +155,63 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 
 
 
+### HTML Tables(요즘 많이 안씀): 모바일에서 대응이 안 됨
+    html table generator > https://www.tablesgenerator.com/html_tables
+    사이트 사용법 : WZW 마우스로 보는대로 만들어서 가져옴, 소스를 복사
+    웹접근성 표현 어려움 , 모바일 대응이 안 됨
+    
+```
+<table>
+  <tr> : table row ~ 행
+    <th></th> : table header - 열제몽
+  </tr>
+  <tr>
+    <td></td> table data - 데이터
+  </tr>
+<table>
+
+
+
+
+```
+emmet wrap with
+
+
+### HTML Lists
+  - unordered list -> ul, li (order = 순사 : un = 순서 없는 목록)
+    - 기호로 표시 된다. (중간점)
+  - ordered list -> ol, li (순서 있는 목록)
+    - 한글, 알파벳, 숫자로 표시 된다. (1.~,  2.~,  3.~)
+  - li(List Item) : 목록 아이템
+  - 중첩목록 (Nested List)
+    - 목록 안에 작은 목록이 포함 되는 경우
+    - 
+
+  ```
+  <ul> 
+    <li>Html</li>
+    <li>CSS</li>
+    <li>JS</li>
+  </ul>
+
+  <ol>
+    <li>Html</li>
+    <li>CSS</li>
+    <li>JS</li>
+  </ol>
+
+  ```
+
+- Description List : 설명 목록 (세트로 사용해야 하는 목록들이 있음)
+  - dl(Description List)
+  - dt(Description Title)
+  - dd(description date)
+
+```
+<dl>
+  <dt></dt> : 목록의 주제
+  <dd></dd> : 목록의 설명
+</dl>
+
+세트로 구성해야하는 설명 목록, 포함되지 않음, 부제목 같은 느낌
+```
