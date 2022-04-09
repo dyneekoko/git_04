@@ -233,8 +233,10 @@ emmet wrap with
   - video 사용하는 attribute
     autoplay, muted, poster, loop, controls
 ```
-<video src="">
+<video>
   <source src="파일경로/video.mp4" type="video/mp4">
 </video>
 ```
 
+시멘틱요소
+- 복습
