@@ -105,3 +105,5 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
   -URL이란? : Uniform-한결같은 Resource-자원 Locator-위치
     -파일 위치 식별자
     - 웹페이지는 파일로 만드니 - 파일위치를 찾아가는 것
+
+    수정1
