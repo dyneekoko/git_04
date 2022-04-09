@@ -52,9 +52,9 @@ body 기준
 ```
 
 -Attribute(속성)
-
 - tag에 필요한 추가정보를 알려주는 것
 - attr 이름 = "필요한 값" (아닌경우도 있음)
+- 
 
 ```
 <tag attr="value"></tag>
@@ -215,3 +215,26 @@ emmet wrap with
 
 세트로 구성해야하는 설명 목록, 포함되지 않음, 부제목 같은 느낌
 ```
+
+
+# HTML Multimedia
+  -mp4(video), mp3(audio) : 모바일에서 사용할 수 있는 포멧들
+  -image, video, audio content : embed content
+
+### HTML Image
+```
+  - img attribute = src(source)
+  - ex: <img src="www.naver.com/html/photo.jpg" alt="대체문구">
+  - alt(alternative) : 대체 텍스트, 이미지를 볼 수 없기 때문에 
+     스크린 리더에서 읽을 때에 더 중요
+```
+
+### HTML Video : 스트리밍 사이트에 있는 것, HTML Audio는 활용빈도 떨어짐
+  - video 사용하는 attribute
+    autoplay, muted, poster, loop, controls
+```
+<video src="">
+  <source src="파일경로/video.mp4" type="video/mp4">
+</video>
+```
+
