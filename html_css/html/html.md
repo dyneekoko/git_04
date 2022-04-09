@@ -239,4 +239,13 @@ emmet wrap with
 ```
 
 시멘틱요소
-- 복습
+```
+<article> : 독립적으로 사용이 가능해야함
+<aside>
+<figure>
+<footer>
+<header>
+<nav>
+<section>
+```
+1
