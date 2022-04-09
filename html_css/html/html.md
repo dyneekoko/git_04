@@ -274,9 +274,56 @@ https://www.w3schools.com/html/html_blocks.asp
 
 ### 파일 경로=주소
   - absolute (절대)
-    : 항상 똑같은 경로(주소) 표시 가능
+    : 항상 똑같은 경로(주소) 표시 가능 _ 장점
+    : 주소 표시 방식이 엄청 복잡하고, 길어질 수 있다 _ 단점
+
+    - 절대경로를 쓰는것이 일반적임
+
   - realtive (상대)
-    : 기준에 따라서 상대적으로 주소 표시 형태가 변경되는 경우
+    : 기준(출발 위치 기준)에 따라서 상대적으로 주소 표시 형태가 변경되는 경우
+    : 주소가 단순해서 효율이 좋음 _ 장점
+    : 같은 자원의 위치에 대해서 표시 방식이 너무 많음. 헷갈릴 수 있음 _ 단점
+    : 경로가 바뀌면 주소를 모두 수정해줘야 함 _ 단점
+
+
+
+
+    ```
+    절대 경로 방식
+    href="www.naver.com/html/home.html"
+    src="www.instagram.com/html/photo.jpg"
+    
+    상대 경로 방식
+
+    / html - home.html
+           - sub.html
+    / images - photo.jpg
+
+    href="sub.html"
+    src="../images/photo.jpg"
+    ```
+    - root 상대 경로 방식 : 두가지의 단점을 보완하는 방식 (실무에서 사용하는 방식)
+    - root : 최상위 경로 (tree 구조의 최상위)
+    - root 경로에서 부터 찾아갈 수 있도록 상대 경로 방식을 변형시킴
+    - ../ 한단계 상위 폴더로 이동한다는 뜻
+
+    ```
+    root 상대 경로 방식
+    아무것도 안 붙어있는 슬래시 /
+
+
+     / html - home.html
+            - sub.html
+    / images - photo.jpg
+
+
+    href="/html/home.html"
+    src="/images/photo.jpg"
+    ```
+
+
+
+
 
 ```
   - 파일 경로
