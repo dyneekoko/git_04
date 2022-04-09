@@ -242,10 +242,21 @@ emmet wrap with
 ```
 <article> : 독립적으로 사용이 가능해야함
 <aside>
-<figure>
+<figure> : 그림형태의 컨텐츠를 그룹핑하는 요소
 <footer>
 <header>
 <nav>
 <section>
 ```
-1
+
+div, span : container 단순 그룹해주는 요소
+
+```
+https://www.w3schools.com/html/html_blocks.asp
+```
+
+### Container Element
+  - 단순 구역을 나누는 그룹핑해주는 요소
+  - div(division) : 구분하다 나누다
+  - span : 범위(폭)의 의미
+  
