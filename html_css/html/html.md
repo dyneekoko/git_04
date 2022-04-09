@@ -236,7 +236,6 @@ emmet wrap with
         - gif : 용량이 작음, 색조합이 작음, 에니메이션을 만들 수 있음
         - svg : 벡터 형식 - 텍스트형식 -> 브라우저가 이미지로
 
-
 ```
 
 ### HTML Video : 스트리밍 사이트에 있는 것, HTML Audio는 활용빈도 떨어짐
@@ -257,6 +256,7 @@ emmet wrap with
 <header>
 <nav>
 <section>
+https://www.w3schools.com/html/html5_semantic_elements.asp
 ```
 
 div, span : container 단순 그룹해주는 요소
@@ -270,3 +270,16 @@ https://www.w3schools.com/html/html_blocks.asp
   - div(division) : 구분하다 나누다
   - span : 범위(폭)의 의미
   
+
+
+### 파일 경로=주소
+  - absolute (절대)
+    : 항상 똑같은 경로(주소) 표시 가능
+  - realtive (상대)
+    : 기준에 따라서 상대적으로 주소 표시 형태가 변경되는 경우
+
+```
+  - 파일 경로
+  참조 사이트 https://www.w3schools.com/html/html_filepaths.asp
+
+```
