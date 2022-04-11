@@ -52,9 +52,10 @@ body 기준
 ```
 
 -Attribute(속성)
+
 - tag에 필요한 추가정보를 알려주는 것
 - attr 이름 = "필요한 값" (아닌경우도 있음)
-- 
+-
 
 ```
 <tag attr="value"></tag>
@@ -63,25 +64,30 @@ body 기준
 ## Text contents Markup
 
 ### heading(제목)
-  - h : 태그 'h'eading 
-  - h1 ~ h6
+
+- h : 태그 'h'eading
+- h1 ~ h6
 
 ### Paragraph(단락)
-  - P : 태그 'p'aragraph
+
+- P : 태그 'p'aragraph
+
 ```
 WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은 것
   -하지만 html은 태그로 표현하기에 wyw가 지원 안됨
   -요즘은 이 표현을 안씀 (파워포인트)
 ```
-  - 강제 줄바꿈 : 'br'eak 태그
-    - 시작태그만 존재하는 빈요소(Empty Element)
-    - 강제 공백 : &nbsp; nonbrakespace; (엔터티 코드)
 
-     -  < =	less than	&lt; &#60;	
-     -  > = greater than	&gt; &#62;	
-     -  &	= ampersand	&amp;	&#38;	
-     -  "	= double quotation mark	&quot; &#34;	
-     -  '	= single quotation mark (apostrophe)	&apos; &#39;
+- 강제 줄바꿈 : 'br'eak 태그
+
+  - 시작태그만 존재하는 빈요소(Empty Element)
+  - 강제 공백 : &nbsp; nonbrakespace; (엔터티 코드)
+
+  - < = less than &lt; &#60;
+  - > = greater than &gt; &#62;
+  - & = ampersand &amp; &#38;
+  - " = double quotation mark &quot; &#34;
+  - ' = single quotation mark (apostrophe) &apos; &#39;
 
 ```
 & : ampersand
@@ -89,15 +95,14 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
   -특수문자를 직접 사용하지 못할 경우, 대체해서 사용하는 코드
 ```
 
--수평선 (horizontal Rule) : hr
-  -단순하게 줄을 긋는것이 아니라, 단락을 구분하는 구분선
+-수평선 (horizontal Rule) : hr -단순하게 줄을 긋는것이 아니라, 단락을 구분하는 구분선
 
 ### HTML Link
-- a : 'a'nchor 닻_바다용어 하이퍼링크 연결하는 태그
+
+- a : 'a'nchor 닻\_바다용어 하이퍼링크 연결하는 태그
 - href(hyper text reference) : 목적지 정보 속성(attribute)
   -reference : 참조
 - bookmark : 연결된 페이지로 이동하지 않고, 같은 페이지 내에서 이동
-
 
 ```
 - Page Link
@@ -110,15 +115,14 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
 
 
 ```
-  -target attribute는 blank만 사용 : 새탭열기
-  -URL이란? : Uniform-한결같은 Resource-자원 Locator-위치, 구분자
-    -파일 위치 식별자
-    - 웹페이지는 파일로 만드니 - 파일위치를 찾아가는 것
-  
+
+-target attribute는 blank만 사용 : 새탭열기
+-URL이란? : Uniform-한결같은 Resource-자원 Locator-위치, 구분자 -파일 위치 식별자 - 웹페이지는 파일로 만드니 - 파일위치를 찾아가는 것
+
 ```
 
   - url 인터넷 주소체계 _ 기본
-    - IP (internet protocol) address 
+    - IP (internet protocol) address
       : 인터넷 통신 주소 약속
         - 단점: 숫자라서 기억하기가 어렵다. (이름이 없기 때문)
     - Domain name : IP 주소를 영어 단어로 표현한 것
@@ -126,41 +130,40 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
       - 회사이름 : naver, kakao, daum
       - 기관성격 : com, net (3자리) / co, go, ac (4자리)
       - 국가(4자리) : kr, uk, ca, fr ..
-      
+
     참조: 인터넷 역사
 
 ```
 
-
-
-
 - 0~255까지 숫자 4개로 구성
   ex) 192.222.0.1
 
-- 인터넷 접속 프로세스 
-  주소표시줄에 -  Domain Name > IP주소로 변환 > 접속 
+- 인터넷 접속 프로세스
+  주소표시줄에 - Domain Name > IP주소로 변환 > 접속
 
 -URL 체계
-  IP또는Domain / 상세경로 / 파일 정보
-  ex) https://www.w3schools.com/html/default.asp
-  도메인만 있어도 URL.
-  
-  W3C - HTML_Link
-  More on Absolute URLs and Relative URLs
-  ```
+IP또는Domain / 상세경로 / 파일 정보
+ex) https://www.w3schools.com/html/default.asp
+도메인만 있어도 URL.
+
+W3C - HTML_Link
+More on Absolute URLs and Relative URLs
+
+```
 
 - HTML Links - Create Bookmarks
-  ex) One Page Website
-  : 스크립트와 연동하여 사용 - 한페이지에서 
+ex) One Page Website
+: 스크립트와 연동하여 사용 - 한페이지에서
 
 
 
 ### HTML Tables(요즘 많이 안씀): 모바일에서 대응이 안 됨
-    html table generator > https://www.tablesgenerator.com/html_tables
-    사이트 사용법 : WZW 마우스로 보는대로 만들어서 가져옴, 소스를 복사
-    웹접근성 표현 어려움 , 모바일 대응이 안 됨
-    
+  html table generator > https://www.tablesgenerator.com/html_tables
+  사이트 사용법 : WZW 마우스로 보는대로 만들어서 가져옴, 소스를 복사
+  웹접근성 표현 어려움 , 모바일 대응이 안 됨
+
 ```
+
 <table>
   <tr> : table row ~ 행
     <th></th> : table header - 열제몽
@@ -169,9 +172,6 @@ WYSIWYG(What You See Is What You Get) : 보는 화면과 작업 화면이 같은
     <td></td> table data - 데이터
   </tr>
 <table>
-
-
-
 
 ```
 emmet wrap with
@@ -185,9 +185,10 @@ emmet wrap with
   - li(List Item) : 목록 아이템
   - 중첩목록 (Nested List)
     - 목록 안에 작은 목록이 포함 되는 경우
-    - 
+    -
 
-  ```
+```
+
   <ul> 
     <li>Html</li>
     <li>CSS</li>
@@ -200,20 +201,22 @@ emmet wrap with
     <li>JS</li>
   </ol>
 
-  ```
+```
 
 - Description List : 설명 목록 (세트로 사용해야 하는 목록들이 있음)
-  - dl(Description List)
-  - dt(Description Title)
-  - dd(description date)
+- dl(Description List)
+- dt(Description Title)
+- dd(description date)
 
 ```
+
 <dl>
   <dt></dt> : 목록의 주제
   <dd></dd> : 목록의 설명
 </dl>
 
 세트로 구성해야하는 설명 목록, 포함되지 않음, 부제목 같은 느낌
+
 ```
 
 
@@ -223,18 +226,19 @@ emmet wrap with
 
 ### HTML Image
 ```
-  - img attribute = src(source)
-  - ex: <img src="www.naver.com/html/photo.jpg" alt="대체문구">
-  - alt(alternative) : 대체 텍스트, 이미지를 볼 수 없기 때문에 
-     스크린 리더에서 읽을 때에 더 중요
-  
-  - 이미지 형식
-    - 비트맵 (포토샵), 벡터(일러스트레이터) 이미지 , 
-      점(색상표현우수)과 좌표(사이즈에 우수)
-        - jpg : 원본색상을 압축하는 표현에 우수
-        - png : 투명배경 적용
-        - gif : 용량이 작음, 색조합이 작음, 에니메이션을 만들 수 있음
-        - svg : 벡터 형식 - 텍스트형식 -> 브라우저가 이미지로
+
+- img attribute = src(source)
+- ex: <img src="www.naver.com/html/photo.jpg" alt="대체문구">
+- alt(alternative) : 대체 텍스트, 이미지를 볼 수 없기 때문에
+  스크린 리더에서 읽을 때에 더 중요
+
+- 이미지 형식
+  - 비트맵 (포토샵), 벡터(일러스트레이터) 이미지 ,
+    점(색상표현우수)과 좌표(사이즈에 우수)
+    - jpg : 원본색상을 압축하는 표현에 우수
+    - png : 투명배경 적용
+    - gif : 용량이 작음, 색조합이 작음, 에니메이션을 만들 수 있음
+    - svg : 벡터 형식 - 텍스트형식 -> 브라우저가 이미지로
 
 ```
 
@@ -242,13 +246,24 @@ emmet wrap with
   - video 사용하는 attribute
     autoplay, muted, poster, loop, controls
 ```
+
 <video>
   <source src="파일경로/video.mp4" type="video/mp4">
 </video>
+
+Youtube Video
+option, parameter(매개변수)
+https://developers.google.com/youtube/player_parameters?hl=ko#autoplay
+
+<iframe src="youtube-url?parameter1=0&parameter2=1&parameter3=0"></iframe>
+
+?attribute=0or1&attribute=0or1
+
 ```
 
 시멘틱요소
 ```
+
 <article> : 독립적으로 사용이 가능해야함
 <aside>
 <figure> : 그림형태의 컨텐츠를 그룹핑하는 요소
@@ -266,33 +281,31 @@ https://www.w3schools.com/html/html_blocks.asp
 ```
 
 ### Container Element
-  - 단순 구역을 나누는 그룹핑해주는 요소
-  - div(division) : 구분하다 나누다
-  - span : 범위(폭)의 의미
-  
 
+- 단순 구역을 나누는 그룹핑해주는 요소
+- div(division) : 구분하다 나누다
+- span : 범위(폭)의 의미
 
 ### 파일 경로=주소
-  - absolute (절대)
-    : 항상 똑같은 경로(주소) 표시 가능 _ 장점
-    : 주소 표시 방식이 엄청 복잡하고, 길어질 수 있다 _ 단점
 
-    - 절대경로를 쓰는것이 일반적임
+- absolute (절대)
+  : 항상 똑같은 경로(주소) 표시 가능 _ 장점
+  : 주소 표시 방식이 엄청 복잡하고, 길어질 수 있다 _ 단점
 
-  - realtive (상대)
-    : 기준(출발 위치 기준)에 따라서 상대적으로 주소 표시 형태가 변경되는 경우
-    : 주소가 단순해서 효율이 좋음 _ 장점
-    : 같은 자원의 위치에 대해서 표시 방식이 너무 많음. 헷갈릴 수 있음 _ 단점
-    : 경로가 바뀌면 주소를 모두 수정해줘야 함 _ 단점
+  - 절대경로를 쓰는것이 일반적임
 
-
+- realtive (상대)
+  : 기준(출발 위치 기준)에 따라서 상대적으로 주소 표시 형태가 변경되는 경우
+  : 주소가 단순해서 효율이 좋음 _ 장점
+  : 같은 자원의 위치에 대해서 표시 방식이 너무 많음. 헷갈릴 수 있음 _ 단점
+  : 경로가 바뀌면 주소를 모두 수정해줘야 함 \_ 단점
 
 
     ```
     절대 경로 방식
     href="www.naver.com/html/home.html"
     src="www.instagram.com/html/photo.jpg"
-    
+
     상대 경로 방식
 
     / html - home.html
@@ -320,10 +333,6 @@ https://www.w3schools.com/html/html_blocks.asp
     href="/html/home.html"
     src="/images/photo.jpg"
     ```
-
-
-
-
 
 ```
   - 파일 경로
